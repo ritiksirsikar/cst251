@@ -1,0 +1,70 @@
+body {
+    font-family: Helvetica, Verdana, Arial, "san serif";
+    background-color: white;
+    padding: 25px;
+    font-size: 120%;
+}
+div#content {
+    padding: 50px;
+    background-color: #D3D3D3;
+    border: solid 1px #333333;
+    min-height: 80vh;
+}
+
+.minor-section{
+  width: 75%;
+}
+
+.link{
+  margin-top: 50px;
+}
+
+a{
+  color:blue;
+}
+a:hover{
+  color: red;
+}
+
+div#searchwindow{
+  margin-top: 40px;
+  padding: 50px;
+  background-color: #D3D3D3;
+  border: solid 1px #333333;
+  min-height: 10vh;
+}
+
+.search-content{
+  margin-top: -30px;
+  width: 75;
+}
+
+.submit-button{
+  padding: 15px 32px;
+}
+
+div#formwindow{
+  margin-top: 20px;
+  padding: 50px;
+  background-color: #D3D3D3;
+  border: solid 1px #333333;
+  min-height: 20vh;
+}
+
+.form-content{
+  margin-top: -40px;
+  line-height: 35px;
+}
+
+h1, h2, h3 {
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  text-decoration: underline;
+  }
+
+img {
+    float: right;
+    width: 20%;
+    height: auto;
+}
