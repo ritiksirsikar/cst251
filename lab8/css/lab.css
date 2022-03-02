@@ -1,1 +1,56 @@
+body{
+  background: url("https://wallpaperaccess.com/full/785694.jpg");
+  color: #bceba9;
+  background-size: cover;
+  font-family: sans-serif;
+}
 
+img {
+  width: 30%;
+  border: 2px solid white;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+img:hover{
+  width: 40%;
+  border: 2px solid yellow;
+  transition: all ease-in 3s;
+}
+
+h1{
+  text-align: center;
+  font-size: 2.5em;
+  text-decoration: underline;
+}
+
+h1:hover{
+  color: red;
+}
+
+h2{
+  margin-left: 15px;
+  font-size: 25px;
+}
+
+p{
+  margin-left: 25px;
+  font-size: 20px;
+  width: 73%;
+}
+
+.animation:hover{
+  color: #ed9c98 ;
+  transition: color 0.5s;
+}
+
+.headeranimation:hover{
+  color: #4a47e6;
+  transition: color 0.5s;
+}
+
+a{
+  color: white;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
