@@ -1,0 +1,41 @@
+body{
+  background-color: grey;
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 60px;
+	margin-bottom: 30px;
+  text-align: center;
+  text-decoration: underline;
+}
+h2{
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+#content{
+  background: linear-gradient( 90deg, #9f05ff69 10%, #fd5e086b 100%);
+  color: black;
+  border: 2px solid black;
+  margin: 10px 20px 10px 20px;
+  text-align: center;
+  padding-bottom: 120px;
+  list-style-position: inside;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+p{
+width: 60%;
+margin-left: 20%;
+}
+
+a{
+  color: black;
+}
+ a:hover{
+   color: blue;
+ }
