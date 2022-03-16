@@ -47,7 +47,7 @@ a{
  }
 
 img{
-  width: 20%;
+  width: 150px;
   margin-left: 2%;
   display: inline-block;
 }
@@ -56,4 +56,26 @@ img{
   width: 300px;
   display: inline-block;
   float: right;
-} 
+}
+
+#floated{
+width: 30%;
+float: right;
+text-align: center;
+}
+
+#center-horz{
+width: 30%;
+display: grid;
+text-align: center;
+padding-left: 38%;
+}
+
+#center-img{
+  display: flex;
+  justify-content: center;
+}
+#center-both{
+  display: flex;
+  justify-content: center;
+}
