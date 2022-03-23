@@ -1,3 +1,4 @@
+
 body{
   background-image: linear-gradient(to top, lightblue, #4d6895);
   color: black;
@@ -78,4 +79,10 @@ padding-left: 38%;
 #center-both{
   display: flex;
   justify-content: center;
+}
+iframe#fake {
+    width: 70%;
+    height: 500px;
+    resize: both;
+    overflow: hidden;
 }
