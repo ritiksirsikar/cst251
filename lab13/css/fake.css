@@ -1,43 +1,122 @@
+html{
+border: 7px solid darkgreen;
+}
+
 body{
-  background-color: black;
-  color: white;
+  background-color: #FAEBD7;
+
 }
 
-.welcome{
-  font-size: 38px;
-  font-family: sans-serif;
-  margin-left: 120px;
-  margin-top: 250px;
+img{
+  width: 50px;
+  line-height: 10px;
+  position: absolute;
+  margin-left: -490px;
+  margin-top: -20px;
+}
+ul{
+  list-style-type: none;
+  margin: 30px;
+  padding: 0;
+  text-align: center;
 }
 
-.paragraph{
-  font-size: 22px;
-  font-family: sans-serif;
-  margin-left: 120px;
-  margin-top: -10px;
-  color: grey;
-  width: 37%;
-}
-
-.images{
-  width: 50%;
-  height: 600px;
+li{
   display: inline;
-  float: right;
-  margin-top: -220px;
+  margin: 15px;
+  text-decoration: none;
 }
 
-.images-item{
-  width: 30%;
-  height: 200px;
-  margin: 50px;
+a{
+  text-decoration: none;
+  color: #3c7a37;
+  font-weight: bold;
+  font-size: 19px;
 }
 
-.input{
-  margin-left: 120px;
-  margin-top: 100px;
+button{
+  background-color: #FAEBD7;
+  color: #3c7a37;
+  font-weight: bolder;
+  width: 12%;
+  line-height: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  border: 3px solid #3c7a37;
+  position: absolute;
+  margin-left: 20%;
+}
+.button:hover{
+  opacity: 80%;
+  size: 50px;
 }
 
-.submit{
-  margin-left: 120px;
+.mailchimp{
+  margin: 150px;
+  margin-left: 400px;
+  color: red;
+  font-family: 'Aladin', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  position: absolute;
+}
+.holiday{
+  margin: 220px;
+  margin-left: 440px;
+  position: absolute;
+  font-size: 40px;
+  color: #006400;
+  font-weight: bold;
+}
+.t{
+position: absolute;
+margin-left: 420px;
+margin-top: 170px;
+font-size: 400px;
+font-family: 'Aladin';
+opacity: 60%;
+color: red;
+}
+.i{
+  position: absolute;
+  margin-left: 570px;
+  margin-top: 200px;
+  font-size: 400px;
+  font-family: 'Aladin';
+  opacity: 75%;
+  color: #006400;
+}
+
+.p{
+  position: absolute;
+  margin-left: 670px;
+  margin-top: 170px;
+  font-size: 400px;
+  font-family: 'Aladin';
+  opacity: 70%;
+  color: yellow;
+  }
+
+.s{
+  position: absolute;
+  margin-left: 830px;
+  margin-top: 200px;
+  font-size: 400px;
+  font-family: 'Aladin';
+  opacity: 70%;
+  color: #006400;
+  }
+.year{
+  position: absolute;
+  margin-left: 950px;
+  margin-top: 150px;
+  font-size: 50px;
+  font-family: 'Aladin';
+  opacity: 90%;
+  color: #006400;
+}
+p{
+  color: darkgreen;
+  text-align: center;
+  margin-top: 720px;
 }
