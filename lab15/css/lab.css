@@ -1,0 +1,82 @@
+body{
+background-color: #9B2335;
+color: white;
+font-family: 'Aladin', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Radio Canada', sans-serif;
+}
+a{
+  color: darkblue;
+  margin-left: 40px;
+}
+
+a:hover{
+  color: white;
+  font-family: 'Aladin', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Radio Canada', sans-serif;
+}
+
+h1{
+  text-align: center;
+  text-shadow: 10px 5px black;
+  font-size: 45px;
+}
+
+
+.challengebox{
+  width: 40%;
+  border: 3px solid black;
+  box-shadow: 5px 10px black;
+  padding-left: 30px;
+  font-size: 20px;
+  transform: rotate(0.02turn);
+}
+
+.problembox{
+  position: absolute;
+  margin-left: 50%;
+  width: 40%;
+  border: 3px solid black;
+  box-shadow: 5px 10px black;
+  padding-left: 30px;
+  background-image: linear-gradient(to right, maroon, grey);
+  font-size: 20px;
+  transform: rotate(0.98turn);
+}
+img{
+  margin-top: auto;
+  width: 40%;
+  height: auto;
+  margin-left: 10px;
+  margin-top: 12%;
+  -webkit-filter: brightness(0.7) saturate(150%) contrast(190%) hue-rotate(30deg);
+
+}
+
+.resultbox{
+  position: absolute;
+  margin-left: 50%;
+  width: 40%;
+  border: 3px solid black;
+  box-shadow: 5px 10px black;
+  padding-left: 30px;
+  font-size: 20px;
+  border-radius: 25px;
+  transform: rotate(0.02turn);
+
+}
+
+.originalimage{
+  width: 45%;
+  padding-top: 40px;
+  padding-left: 30px;
+}
+
+.objectfit{
+  width: 45%;
+  padding-top: 40px;
+  padding-left: 35px;
+  object-fit: none;
+
+}
