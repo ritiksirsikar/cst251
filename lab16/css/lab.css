@@ -1,6 +1,6 @@
 body{
-background-color: #9B2335;
-color: white;
+background-color: grey;
+color: black;
 font-family: 'Aladin', cursive;
 font-family: 'Dancing Script', cursive;
 font-family: 'Radio Canada', sans-serif;
@@ -17,12 +17,36 @@ a:hover{
   font-family: 'Radio Canada', sans-serif;
 }
 
+.homepage{
+  background-color: #e7e7e7;
+  color: black;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 2px solid #black;
+  margin: 30px;
+  cursor: pointer;
+}
 
+.homepage:hover{
+  background-color: red;
+  transition-duration: 0.4s;
+  color: white;
+}
+
+.buttons{
+  background-color: black;
+  border-radius: 10px;
+}
 
 
 h1{
   text-align: center;
-  text-shadow: 10px 5px black;
+  text-shadow: 5px 5px black;
   font-size: 45px;
 }
 
