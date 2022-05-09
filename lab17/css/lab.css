@@ -1,14 +1,18 @@
 body{
-background-image: url("https://wallpaperaccess.com/full/2842066.jpg");
-color: black;
+background-image: url("https://wallpaperaccess.com/full/1567665.png");
+background-size: cover;
+color: white;
 font-family: 'Aladin', cursive;
 font-family: 'Dancing Script', cursive;
 font-family: 'Radio Canada', sans-serif;
 }
 a{
-  color: darkblue;
+  color: black;
   margin-left: 40px;
   margin-left: -2px;
+}
+.email{
+  color: lightblue;
 }
 
 a:hover{
@@ -21,7 +25,7 @@ a:hover{
 
 .homepage{
   background-color: #e7e7e7;
-  color: black;
+  color: ;
   border: none;
   padding: 15px 32px;
   text-align: center;
@@ -29,7 +33,7 @@ a:hover{
   display: inline-block;
   font-size: 16px;
   border-radius: 10px;
-  border: 2px solid black;
+  border: 2px solid white;
   margin: 30px;
   cursor: pointer;
 }
@@ -38,7 +42,7 @@ a:hover{
   background-color: red;
   transition-duration: 0.4s;
   color: white;
-  border: 3px solid black;
+  border: 3px solid white;
 }
 
 .buttons{
@@ -54,8 +58,8 @@ h1{
 
 .challengebox{
   width: 90%;
-  border: 4px solid black;
-  box-shadow: 5px 10px black;
+  border: 4px solid white;
+  box-shadow: 5px 10px white;
   padding:15px;
   margin: auto;
   font-size: 20px;
@@ -64,8 +68,8 @@ h1{
 
 .problembox{
   width: 90%;
-  border: 4px solid black;
-  box-shadow: 5px 10px black;
+  border: 4px solid white;
+  box-shadow: 5px 10px white;
   padding:15px;
   margin: auto;
   margin-top: 20px;
@@ -76,8 +80,8 @@ h1{
 
 .resultbox{
   width: 90%;
-  border: 4px solid black;
-  box-shadow: 5px 10px black;
+  border: 4px solid white;
+  box-shadow: 5px 10px white;
   padding:15px;
   margin: auto;
   font-size: 20px;
@@ -86,7 +90,7 @@ h1{
 }
 
 section{
-  border: 4px solid black;
+  border: 4px solid white;
   margin: auto;
   width: 95%;
   margin-top: 10px;
@@ -134,7 +138,7 @@ section{
 }
 
 footer{
-  border: 4px solid black;
+  border: 4px solid white;
   margin: auto;
   width: 95%;
   margin-top: 20px;
@@ -146,9 +150,10 @@ img{
   width: 30%;
   margin: 20px;
   display: inline;
+  border: 1px solid white;
 }
 main{
-  border: 4px solid black;
+  border: 4px solid white;
   margin: auto;
   width: 95%;
   margin-top: 20px;
