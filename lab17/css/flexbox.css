@@ -1,0 +1,165 @@
+body{
+background-image: url("https://wallpaperaccess.com/full/1567665.png");
+background-size: cover;
+color: white;
+font-family: 'Aladin', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Radio Canada', sans-serif;
+}
+a{
+  color: black;
+  margin-left: 40px;
+  margin-left: -2px;
+}
+.email{
+  color: lightblue;
+}
+
+a:hover{
+  color: red;
+  font-family: 'Aladin', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Radio Canada', sans-serif;
+
+}
+
+.homepage{
+  background-color: #e7e7e7;
+  color: black;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 2px solid white;
+  margin: 30px;
+  cursor: pointer;
+}
+
+.homepage:hover{
+  background-color: red;
+  transition-duration: 0.4s;
+  color: white;
+  border: 3px solid white;
+}
+
+.buttons{
+  border-radius: 10px;
+}
+
+
+h1{
+  text-align: center;
+  font-size: 45px;
+  text-decoration: underline;
+}
+
+.challengebox{
+  width: 90%;
+  border: 4px solid white;
+  box-shadow: 5px 10px white;
+  padding:15px;
+  margin: auto;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.problembox{
+  width: 90%;
+  border: 4px solid white;
+  box-shadow: 5px 10px white;
+  padding:15px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.resultbox{
+  width: 90%;
+  border: 4px solid white;
+  box-shadow: 5px 10px white;
+  padding:15px;
+  margin: auto;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+section{
+  border: 4px solid white;
+  margin: auto;
+  width: 85%;
+  margin-top: 10px;
+}
+
+.box {
+  width: 180px;
+  height: auto;
+  background: red;
+  margin-top: 20px;
+  margin-left: 300px;
+  margin-right: auto;
+  font-size: 18px;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.box:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+.secondbox{
+  position: absolute;
+  width: 180px;
+  height: auto;
+  background: red;
+  margin-top: -550px;
+  margin-left: 800px;
+  margin-right: auto;
+  font-size: 18px;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.secondbox:hover {
+  background-color: green;
+  transition: ease-in 1s;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+footer{
+  border: 4px solid white;
+  margin: auto;
+  width: 85%;
+  margin-top: 20px;
+  padding-left: 30px;
+  font-size: 18px;
+  text-align: center;
+}
+
+img{
+  width: 54%;
+  margin: 18px;
+  border: 1px solid white;
+}
+
+main{
+  border: 4px solid white;
+  margin: auto;
+  width: 85%;
+  text-align: center;
+}
+.flexbox{
+  display: flex;
+  flex-direction: column;
+}
