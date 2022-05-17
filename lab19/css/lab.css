@@ -1,0 +1,14 @@
+.heading{
+  text-align: center;
+  font-size: 30px;
+}
+
+.section{
+  text-align: center;
+}
+.row{
+  border: 1px solid black;
+}
+img{
+  width: 75%;
+}
